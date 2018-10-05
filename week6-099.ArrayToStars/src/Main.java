@@ -9,5 +9,12 @@ public class Main {
 
     public static void printArrayAsStars(int[] array) {
         // write code here
+        for (int i:array) {
+            String stars = "";
+            for (int j = 0; j < i; j++) {
+                stars += "*";
+            }
+            System.out.println(stars);
+        }
     }
 }

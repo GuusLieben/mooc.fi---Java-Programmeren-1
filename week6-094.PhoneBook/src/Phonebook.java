@@ -1,25 +1,21 @@
 import java.util.ArrayList;
 
 public class Phonebook {
-    private ArrayList<Person> Phonebook;
-
-    public Phonebook() {
-        Phonebook = new ArrayList<>();
-    }
+    private ArrayList<Person> phonebook = new ArrayList<Person>();
 
     public void add(String name, String number) {
         Person person = new Person(name, number);
-        this.Phonebook.add(person);
+        phonebook.add(person);
     }
 
     public void printAll() {
-        for (Person person:Phonebook) {
+        for (Person person:phonebook) {
             System.out.println(person);
         }
     }
 
     public String searchNumber(String name) {
-        for (Person person:Phonebook) {
+        for (Person person:phonebook) {
             if (person.getName().equals(name)) {
                 return person.getNumber();
             }

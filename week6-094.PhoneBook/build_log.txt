@@ -66,9 +66,23 @@ deps-jar:
 -do-compile:
     [javac] Compiling 3 source files to /Users/guuslieben/IdeaProjects/TMCProjects/avansbreda-avansbreda-programmeren-1-2018-2019/week6-094.PhoneBook/build/classes
     [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
-    [javac] /Users/guuslieben/IdeaProjects/TMCProjects/avansbreda-avansbreda-programmeren-1-2018-2019/week6-094.PhoneBook/src/Phonebook.java:7: error: diamond operator is not supported in -source 1.6
-    [javac]         Phonebook = new ArrayList<>();
-    [javac]                                   ^
-    [javac]   (use -source 7 or higher to enable diamond operator)
-    [javac] 1 error
     [javac] 1 warning
+
+-post-compile:
+
+compile:
+
+-pre-pre-compile-test:
+
+-pre-compile-test:
+
+-compile-test-depend:
+
+-do-compile-test:
+
+-post-compile-test:
+
+compile-test:
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
