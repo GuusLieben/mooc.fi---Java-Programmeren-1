@@ -1,0 +1,6 @@
+
+BUILD FAILED
+/Users/guuslieben/IdeaProjects/TMCProjects/avansbreda-avansbreda-programmeren-1-2018-2019/week6-094.PhoneBook/nbproject/build-impl.xml:603: The following error occurred while executing this line:
+/Users/guuslieben/IdeaProjects/TMCProjects/avansbreda-avansbreda-programmeren-1-2018-2019/week6-094.PhoneBook/nbproject/build-impl.xml:245: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
